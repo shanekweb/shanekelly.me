@@ -1,0 +1,23 @@
+@media screen and (max-width: 900px){
+
+	fieldset input {
+		padding: 5px 0 5px 15px;
+	}
+
+	fieldset textarea {
+		height: 78px;
+	}
+
+	input.submit {
+		padding: 2px 0;
+	}
+
+}
+
+@media screen and (max-width: 750px){
+
+	/*.messageSection {
+		clear: both;
+	}*/
+	
+}

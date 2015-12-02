@@ -1,0 +1,299 @@
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.fl {
+    float: left;
+}
+
+.cb {
+    clear: both;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.pr {
+position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.oh {
+    overflow: hidden;
+}
+
+img {
+    vertical-align: middle;
+    border: none;
+    height: auto;
+    width: 100%;
+}
+
+section.footerTop {
+    background: #e8230f;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    margin-top: 2%;
+}
+
+section.footerTop h3 {
+    margin: 0;
+    padding: 5px 0;
+}
+
+section.footer {
+    background: #222;
+    border-bottom: 3px solid #e8230f;
+}
+
+fieldset {
+    border: none;
+    padding: 3% 0;
+    position: relative;
+}
+
+fieldset input {
+    width: 96%;
+    background: #333;
+    border: none;
+    outline: none;
+    color: #aeaeae;
+    padding: 10px 0 10px 15px;
+    margin: 3px 0;
+}
+
+fieldset textarea {
+    width: 97% !important;
+    background: #333;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px 0 10px 15px;
+    margin: 3px 0;
+    color: #aeaeae;
+    height: 105px;
+}
+
+::-webkit-input-placeholder {
+    color: #666;
+}
+
+input.submit {
+    text-align: center;
+    width: 100px;
+    padding: 4px 0;
+    margin: 0;
+    background: #e8230f;
+    color: #fff;
+    position: absolute;
+    right: 0;
+}
+
+section.name {
+    padding-top: 10px;
+    height: 65px;
+}
+
+.name-title {
+    font-size: 40px;
+    float: left;
+    display: block;
+    font-weight: 300;
+    line-height: 65px;
+    padding-right: 10px;
+}
+
+#title-seperator {
+bottom: -2px;
+font-size: 40px;
+float: left;
+display: block;
+position: relative;
+}
+
+.job-title {
+font-size: 21px;
+float: left;
+display: block;
+font-weight: 300;
+line-height: 70px;
+padding-left: 10px
+}
+
+section.slider {
+    margin-bottom: 3%;
+    margin-top: .5%;
+}
+
+#navButton {
+    background: #e8230f url(../img/plus.jpg) no-repeat;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 3em;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    z-index: 999;
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    transition: all .1s ease;
+}
+nav {
+    z-index: 888;
+    background: #e8230f;
+    padding: 0;
+    height: 50px;
+    width: 100%;
+    margin-top: 5px;
+    right: -950px;
+    -webkit-transition: right 1s ease;
+    -moz-transition: right 1s ease;
+    -o-transition: right 1s ease;
+    transition: right 1s ease;
+}
+.nav-change {
+    right: 0 !important;
+}
+.navButton-change {
+    background: #e8230f url(../img/minus.jpg) no-repeat !important;
+    position: absolute;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 0 30px;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    background: #e8230f;
+    -webkit-transition: all .6s ease;
+}
+nav ul li a:hover {
+    background: #333;
+}
+.navNoMargin {
+    margin-left: 0 !important;
+}
+
+section.introText {
+    background: #333;
+    color: #fff;
+    padding: 1% 2%;
+    border-top: 6px solid #222;
+    border-bottom: 6px solid #222;
+}
+section.introText h1 {
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+}
+section.introText h2 {
+    text-align: center;
+    margin: 0;
+}
+
+section.portfolio {
+    margin-bottom: 2%;
+}
+
+section.portfolio h2 {
+    text-align: center;
+}
+
+section.portfolio .grid_4 {
+    height: 180px;
+    margin-bottom: 18px;
+    position: relative;
+    z-index: 400;
+    -webkit-transition: all 1s ease
+}
+
+#portAll1 {background: url(../img/pot1.jpg) no-repeat;}
+#portAll2 {background: url(../img/pot1.jpg) no-repeat;}
+#portAll3 {background: url(../img/pot1.jpg) no-repeat;}
+#portAll4 {background: url(../img/pot1.jpg) no-repeat;}
+#portAll5 {background: url(../img/pot1.jpg) no-repeat;}
+#portAll6 {background: url(../img/pot1.jpg) no-repeat;}
+#portAll7 {background: url(../img/pot1.jpg) no-repeat;}
+#portAll8 {background: url(../img/pot1.jpg) no-repeat;}
+#portAll9 {background: url(../img/pot1.jpg) no-repeat;}
+#portAll10 {background: url(../img/pot1.jpg) no-repeat;}
+#portAll11 {background: url(../img/pot1.jpg) no-repeat;}
+#portAll12 {background: url(../img/pot1.jpg) no-repeat;}
+
+.portHide {
+    background: url(../img/transRed.png) no-repeat;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    line-height: 180px;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: all 1s ease;
+}
+
+section.portfolio .grid_4:hover .portHide {
+    opacity: 1;
+}
+
+.skills {
+    background: #333;
+    color: #fff;
+    border-top: 6px solid #222;
+    border-bottom: 6px solid #222;
+}
+
+.skills h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.skills h3 {
+    text-align: center;
+    margin: 0;
+}
+
+#contactform img {
+    display: none;
+}
+
+.error_message {
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#success_page {
+    color: #fff;
+    text-align: center;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #555 inset;
+}
+
